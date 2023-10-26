@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculum Franco</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="./curriculum.css" /> -->
+  </head>
+  <body>
+    <!--Inizio Stile-->
+    <style>
+      body {
+        background: #1b1b25;
+        color: #fff;
+        font-family: "Josefin Sans", sans-serif;
+      }
+
+      h2 {
+        color: #d9b929;
+      }
+
+      h3 {
+        color: #998943;
+      }
+      .minuscolo {
+        font-size: 10px;
+      }
+      .minuscolo::before {
+        content: "(";
+      }
+      .minuscolo::after {
+        content: ")";
+      }
+
+      .aboutme {
+        margin: 0px 0px 00px 40px;
+      }
+
+      .img-profile {
+        display: flex;
+        margin: 0px 0px 00px 20px;
+      }
+
+      .name {
+        display: flex;
+        margin: 0px 0px 00px 20px;
+      }
+
+      .role {
+        display: flex;
+        margin: 0px 0px 00px 20px;
+      }
+
+      li {
+        list-style-type: none;
+      }
+
+      .navbar {
+        display: flex;
+        justify-content: center;
+        padding-left: 80px;
+      }
+
+      .flex-items {
+        height: 50%;
+        margin: 10px;
+        text-align: center;
+        font-size: 20px;
+        padding-left: 50px;
+      }
+
+      .name-navbar {
+        display: table-column;
+        justify-content: space-around;
+      }
+
+      footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
+
+      .header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+
+      hr {
+        position: relative;
+        left: -15px;
+        width: calc(100% + 30px);
+        height: 2px;
+        border: 2px solid #d9b929;
+      }
+
+      a {
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+
+      a:hover {
+        background-color: #555;
+      }
+
+      a:active {
+        background-color: black;
+      }
+
+      a:visited {
+        background-color: #ccc;
+      }
+    </style>
+    <!--Fine Stile-->
+    <div class="header">
+      <img
+        class="img-profile"
+        width="100"
+        height="100"
+        src="https://api-private.atlassian.com/users/039312c7b9c30a744b6b13b6921ba2c4/avatar"
+        alt=""
+      />
+      <div class="name-navbar">
+        <h1 class="name">
+          Franco Ciofi<br />
+          <h4 class="role">Unity Developer</h4>
+        </h1>
+      </div>
+      <nav class="navbar">
+        <li class="flex-items"><a href="#about">About</a></li>
+        <li class="flex-items"><a href="#experience">Esperienze</a></li>
+        <li class="flex-items"><a href="#education">Titoli & Competenze</a></li>
+        <li class="flex-items"><a href="#skills">Abilità</a></li>
+        <li class="flex-items"><a href="#contact">Contatti</a></li>
+      </nav>
+    </div>
+    <hr />
+    <main>
+      <section id="about">
+        <h2>About me</h2>
+        <p class="aboutme">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit
+          tellus ac massa feugiat hendrerit. Donec ut velit eget quam volutpat
+          faucibus id id mi. Pellentesque habitant morbi tristique senectus et
+          netus et malesuada fames ac turpis egestas. Nulla luctus cursus urna,
+          vel aliquam nisi rhoncus eget.
+        </p>
+      </section>
+      <section id="experience">
+        <h2>Esperienze</h2>
+        <ul>
+          <li>
+            <h3>Lavoro X</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              blandit tellus ac massa feugiat hendrerit. Donec ut velit eget
+              quam volutpat faucibus id id mi. Pellentesque habitant morbi
+              tristique senectus et netus et malesuada fames ac turpis egestas.
+              Nulla luctus cursus urna, vel aliquam nisi rhoncus eget.
+            </p>
+          </li>
+          <li>
+            <h3>Lavoro Y</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              blandit tellus ac massa feugiat hendrerit. Donec ut velit eget
+              quam volutpat faucibus id id mi. Pellentesque habitant morbi
+              tristique senectus et netus et malesuada fames ac turpis egestas.
+              Nulla luctus cursus urna, vel aliquam nisi rhoncus eget.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section id="education">
+        <h2>Titoli & Competenze</h2>
+        <ul>
+          <li>
+            <h3>Diploma da soffiatore di minestrine</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              blandit tellus ac massa feugiat hendrerit. Donec ut velit eget
+              quam volutpat faucibus id id mi. Pellentesque habitant morbi
+              tristique senectus et netus et malesuada fames ac turpis egestas.
+              Nulla luctus cursus urna, vel aliquam nisi rhoncus eget.
+            </p>
+          </li>
+          <li>
+            <h3>Laurea in sollevatore di questioni</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              blandit tellus ac massa feugiat hendrerit. Donec ut velit eget
+              quam volutpat faucibus id id mi. Pellentesque habitant morbi
+              tristique senectus et netus et malesuada fames ac turpis egestas.
+              Nulla luctus cursus urna, vel aliquam nisi rhoncus eget.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section id="skills">
+        <h2>Abilità</h2>
+        <ul>
+          <li>
+            <h3>
+              Diventare invisibile
+              <span class="minuscolo">solo se nessuno mi guarda</span>
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              blandit tellus ac massa feugiat hendrerit. Donec ut velit eget
+              quam volutpat faucibus id id mi. Pellentesque habitant morbi
+              tristique senectus et netus et malesuada fames ac turpis egestas.
+              Nulla luctus cursus urna, vel aliquam nisi rhoncus eget.
+            </p>
+          </li>
+          <li>
+            <h3>
+              Teletrasporto
+              <span class="minuscolo"
+                >solo nello stesso esatto punto di partenza</span
+              >
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              blandit tellus ac massa feugiat hendrerit. Donec ut velit eget
+              quam volutpat faucibus id id mi. Pellentesque habitant morbi
+              tristique senectus et netus et malesuada fames ac turpis egestas.
+              Nulla luctus cursus urna, vel aliquam nisi rhoncus eget.
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <hr />
+      <p>Copyright &copy; 2023 Franco Ciofi</p>
+    </footer>
+  </body>
+</html>

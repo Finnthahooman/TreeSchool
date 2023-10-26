@@ -1,0 +1,105 @@
+body {
+  background-color: #221f1f;
+  color: #e4e4e4;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h2.sub {
+  font-size: 15px;
+  padding: 0px 0px 30px 0px;
+  margin: -17px 0 0 0;
+}
+
+#logo {
+  height: 35px;
+  padding-left: 45px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.menuitem {
+  margin: 0px 12px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.menu {
+  display: flex;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.reg-field {
+  border: 1px solid white;
+  width: 400px;
+  margin: 100px auto;
+  padding: 30px 0px;
+}
+.reg-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon {
+  height: 35px;
+  display: inline;
+}
+
+.social-item {
+  margin: 0px 25px;
+}
+
+hr {
+  width: 200%;
+  margin-left: -50%;
+}
+
+​ footer {
+  background-color: #564d4d;
+  border-top: 2px solid rgb(255, 255, 255);
+  padding-top: 5px;
+}
+
+/* Dispositivi Mobile */
+@media screen and (min-width: 480px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  body {
+    background-color: green;
+  }
+}
+
+/* Laptops */
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: #221f1f;
+  }
+}
