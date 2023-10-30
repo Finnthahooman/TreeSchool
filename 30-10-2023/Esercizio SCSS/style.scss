@@ -1,0 +1,42 @@
+@import "variables.scss";
+
+body {
+  background-color: $main-color;
+  margin: 0px;
+  font-family: $font-main;
+
+  #navbar {
+    display: flex;
+    height: 70px;
+    justify-content: left;
+    align-items: center;
+    background-color: $secondary-color;
+
+    #logo {
+      margin-left: 20px;
+      background-color: white;
+      left: 1%;
+    }
+
+    .navContainer {
+      display: flex;
+      margin-left: 20px;
+      gap: 20px;
+      align-items: left;
+
+      .navitem {
+        color: $main-text;
+        list-style-type: none;
+      }
+
+      a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $main-text;
+        :hover {
+          color: red;
+        }
+      }
+    }
+  }
+}

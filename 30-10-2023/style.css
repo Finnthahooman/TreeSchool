@@ -1,6 +1,5 @@
 * {
   margin: 0;
-  border: 0;
 }
 
 body {
@@ -11,8 +10,28 @@ body {
   font-family: "Roboto Mono", monospace;
 }
 
+.navLinks {
+  display: flex;
+  justify-content: space-around;
+}
+
 li {
   list-style-type: none;
+  height: 50%;
+  margin: 10px;
+  text-align: center;
+  font-size: 12x;
+  display: inline;
+}
+
+.caroselloFilm {
+  & img {
+    margin-top: 20px;
+    /*Ho provato una nesting rule*/
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+  }
 }
 
 #logo {
@@ -23,11 +42,47 @@ li {
   user-select: none;
 }
 
+.oggialcinema {
+  margin-top: 20%;
+  text-align: center;
+}
+
+#mainh1 {
+  margin-top: 20px;
+}
+
 nav {
   display: flex;
-  width: 50%;
-  text-align: center;
+  width: -50%;
+  height: 100%;
   justify-content: center;
+  align-items: center;
+  /*border: red solid 5px;  DEBUG VISIVO */
+}
+
+hr {
+  background-color: #ed7d31;
+  height: 50%;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f6f1ee;
+}
+
+#logbutton {
+  background-color: #ed7d31;
+  border: none;
+  color: #f6f1ee;
+  padding: 10px 20px;
+  margin-left: 30px;
+  cursor: pointer;
+  border-radius: 60px;
+}
+
+a:hover {
+  color: #e79769;
 }
 
 .headerBackground {
