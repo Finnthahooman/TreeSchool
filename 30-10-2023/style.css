@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-color: #4f4a45;
+  color: #f6f1ee;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+
+li {
+  list-style-type: none;
+}
+
+#logo {
+  width: 120px;
+  position: absolute;
+  padding-left: 5%;
+  padding-top: 15px;
+  user-select: none;
+}
+
+nav {
+  display: flex;
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+}
+
+.headerBackground {
+  background-color: #6c5f5b;
+  height: 75px;
+  border-bottom: 5px solid #ed7d31;
+}
