@@ -9,7 +9,22 @@ $highlight-text: #00a9ff;
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Poppins&family=Roboto+Mono&display=swap");
 
 $font-main: "Poppins", sans-serif;
+$main-font-size: 10px;
+$smaller-font-size: 8px;
 
+// Card Variables
+$card-main-fontsize: 14px;
+$card-stars-fontsize: 10px;
 // Mixin
-@mixin btn {
+@mixin btn($width, $height) {
+  width: $width;
+  height: $height;
+}
+@mixin important-text($color: red, $fontsize: 25px) {
+  color: $color;
+  font-size: $fontsize;
+  font-weight: bold;
+}
+@mixin GREEN {
+  color: green;
 }
